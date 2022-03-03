@@ -1,0 +1,11 @@
+name: Check Existing Java
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Existing Java
+        run: java --version
